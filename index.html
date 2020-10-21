@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title></title>
+    <style>
+</style>
+  </head>
+  <body>
+    <div class="modalWindow">
+      <div class="modalWindow-content">
+        <div class="modalWindow-header">
+           <h3>Программа строит параллелограмм на основе 3 точек и круг в центре с площадью равной площади параллелограмма</h3>
+           <span class="close">&times;</span>
+        </div>
+        <div class="modalWindow-main">
+           <p>Постройте в рабочей области 3 точки (можна менять их положение в процессе). Будут достроины еще 3 точки(возможная 4 вершина). Выберете из одну. Будет построен параллелограмм. Вы можете меня положение вершин и центра. Нажмите кнопку reset</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex-container column">
+      <div class="modalData">
+        <div class="modalData-content">
+        </div>
+      </div>
+      <div class="flex-item buttons">
+          <div class="reset">
+            <button type="button" onclick="" name="reset">reset</button>
+          </div>
+          <div class="about">
+            <button type="button" onclick=""name="about">about</button>
+          </div>
+      </div>
+      <div class="flex-item canvas">
+        <canvas id="myCanvas" width="1200" height="900"></canvas>
+      </div>
+   </div>
+   <script src="./scripts/matrix.js" charset="utf-8"></script>
+   <script src="./scripts/index.js" charset="utf-8"></script>
+  </body>
+</html>
